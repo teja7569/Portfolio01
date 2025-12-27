@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Teja's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Animation libraries -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
   <header>
@@ -20,20 +25,22 @@
   </header>
 
   <section id="home" class="home">
-    <img src="profile.jpg" alt="Profile photo" class="profile" />
-    <h2>Vasam Teja</h2>
-    <p>Computer Science Graduate | Developer | Problem Solver</p>
-    <div class="buttons">
+    <img src="profile.jpg" alt="Profile photo" class="profile" data-aos="zoom-in" />
+    <h2 data-aos="fade-up">Vasam Teja</h2>
+    <p class="typed-text" data-aos="fade-up"></p>
+
+    <div class="buttons" data-aos="fade-up">
       <a href="Teja's Resume (2).pdf" target="_blank" class="btn">View Resume</a>
       <a href="#contact" class="btn outline">Contact Me</a>
     </div>
-    <div class="socials">
+
+    <div class="socials" data-aos="fade-up">
       <a href="https://github.com/teja7569" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/teja-vasam-60b24030a" target="_blank">LinkedIn</a>
     </div>
   </section>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>
       Enthusiastic Computer Science graduate with a solid foundation, seeking an entry-level position in a reputable
@@ -42,7 +49,7 @@
     </p>
   </section>
 
-  <section id="education">
+  <section id="education" data-aos="fade-up">
     <h2>Education</h2>
     <ul>
       <li><strong>B.Sc in Computer Science</strong> — SPACES Degree College, Payakaraopeta (2021–2023), 64.3%</li>
@@ -51,7 +58,7 @@
     </ul>
   </section>
 
-  <section id="projects">
+  <section id="projects" data-aos="fade-up">
     <h2>Projects</h2>
     <div class="project">
       <h3>Dropbox Creation (Cloud Computing)</h3>
@@ -63,13 +70,13 @@
     </div>
   </section>
 
-  <section id="skills">
+  <section id="skills" data-aos="fade-up">
     <h2>Skills</h2>
     <p><strong>Technical:</strong> C, Java, Python, HTML, SQL, PHP, CSS, Data Structures</p>
     <p><strong>Soft Skills:</strong> Problem-Solving, Teamwork, Communication, Adaptability, Strategic Thinking</p>
   </section>
 
-  <section id="certs">
+  <section id="certs" data-aos="fade-up">
     <h2>Certifications</h2>
     <ul>
       <li>CS50’s Introduction to Programming with Python – Harvard</li>
@@ -80,7 +87,7 @@
     </ul>
   </section>
 
-  <section id="contact">
+  <section id="contact" data-aos="fade-up">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:tejavasam21@gmail.com">tejavasam21@gmail.com</a></p>
     <p>Phone: +91 9381820089</p>
